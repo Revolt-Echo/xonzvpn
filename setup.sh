@@ -279,7 +279,7 @@ restart_system(){
 MYIP=$(curl -sS ipv4.icanhazip.com)
 echo -e "\e[32mloading...\e[0m" 
 clear
-izinsc="https://raw.githubusercontent.com/anggabadol/Autoscript-tunneling-premium/main/register"
+izinsc="https://ai.xonzx.cloud/reg.txt"
 # USERNAME
 rm -f /usr/bin/user
 username=$(curl $izinsc | grep $MYIP | awk '{print $2}')
